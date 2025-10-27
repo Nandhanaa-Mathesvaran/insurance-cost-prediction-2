@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/312460677269743469/8313dcf189f74c7fb8eb4b74f922cc49/artifacts
+end_time: 1761555944185
+entry_point_name: ''
+experiment_id: '312460677269743469'
+lifecycle_stage: active
+run_id: 8313dcf189f74c7fb8eb4b74f922cc49
+run_name: XGBRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761555940165
+status: 3
+tags: []
+user_id: NANDHANAA M
