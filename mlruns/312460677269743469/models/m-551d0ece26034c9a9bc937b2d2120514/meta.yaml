@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/312460677269743469/models/m-551d0ece26034c9a9bc937b2d2120514/artifacts
+creation_timestamp: 1761554378054
+experiment_id: '312460677269743469'
+last_updated_timestamp: 1761554382192
+model_id: m-551d0ece26034c9a9bc937b2d2120514
+model_type: null
+name: insurance_model
+source_run_id: a09a22a9eee94b868aeb8d015b140184
+status: 2
+status_message: null

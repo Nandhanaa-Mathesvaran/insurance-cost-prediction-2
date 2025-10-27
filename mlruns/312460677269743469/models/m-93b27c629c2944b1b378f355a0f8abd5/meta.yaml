@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/312460677269743469/models/m-93b27c629c2944b1b378f355a0f8abd5/artifacts
+creation_timestamp: 1761541678583
+experiment_id: '312460677269743469'
+last_updated_timestamp: 1761541682445
+model_id: m-93b27c629c2944b1b378f355a0f8abd5
+model_type: null
+name: RandomForest_model
+source_run_id: b1ed0a75d2e344a99ebbbed6cd828610
+status: 2
+status_message: null

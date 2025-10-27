@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/312460677269743469/6a8042bc92504d65bb5e28de2385636e/artifacts
+end_time: 1761554319567
+entry_point_name: ''
+experiment_id: '312460677269743469'
+lifecycle_stage: active
+run_id: 6a8042bc92504d65bb5e28de2385636e
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761554315821
+status: 3
+tags: []
+user_id: NANDHANAA M
