@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/268766144718988709/models/m-6478ba9bc3b6405fb67e83a0f5a5341b/artifacts
+creation_timestamp: 1761556416937
+experiment_id: '268766144718988709'
+last_updated_timestamp: 1761556420323
+model_id: m-6478ba9bc3b6405fb67e83a0f5a5341b
+model_type: null
+name: GradientBoosting_best_model
+source_run_id: 06c434df78d441bfb2cf04cd343c9ef7
+status: 2
+status_message: null

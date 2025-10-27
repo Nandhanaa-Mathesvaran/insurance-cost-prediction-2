@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/268766144718988709/models/m-6b1a3fa5a2b34a9ab193dcbdc65e60f4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.5.1
+model_id: m-6b1a3fa5a2b34a9ab193dcbdc65e60f4
+model_size_bytes: 9371797
+model_uuid: m-6b1a3fa5a2b34a9ab193dcbdc65e60f4
+prompts: null
+run_id: b4573638b9f742c78ea9b6f767cb0334
+utc_time_created: '2025-10-27 09:13:43.050534'

@@ -1,33 +1,36 @@
 import streamlit as st
-import mlflow.sklearn
+import mlflow
+import mlflow.pyfunc
 import pandas as pd
+import numpy as np
 
-model_uri = "models:/insurance-cost-predictor/Production"
-model = mlflow.sklearn.load_model(model_uri)
+MODEL_NAME = "insurance-cost-predictor"
+MODEL_STAGE = "Production"
+
+model = mlflow.pyfunc.load_model(f"models:/{MODEL_NAME}/{MODEL_STAGE}")
 
 st.title(" Medical Insurance Cost Predictor")
-st.write("Enter the details below to predict the insurance charges:")
 
-age = st.number_input("Age", min_value=0, max_value=100, value=30)
-bmi = st.number_input("BMI Value", min_value=10.0, max_value=60.0, value=25.0)
+age = st.number_input("Age", min_value=18, max_value=100, value=30)
+bmi = st.number_input("BMI Value", min_value=10.0, max_value=50.0, value=25.0)
 children = st.number_input("Number of Children", min_value=0, max_value=10, value=0)
-
 sex = st.selectbox("Sex", ["male", "female"])
 smoker = st.selectbox("Smoker", ["yes", "no"])
 region = st.selectbox("Region", ["southwest", "southeast", "northwest", "northeast"])
 
-input_df = pd.DataFrame({
-    "sex": [sex],
-    "smoker": [smoker],
-    "region": [region],
-    "age": [age],
-    "bmi": [bmi],
-    "children": [children]
-})
-
 if st.button("Predict Insurance Cost"):
     try:
-        prediction = model.predict(input_df)
-        st.success(f"Predicted Medical Insurance Cost: ${prediction[0]:.2f}")
+        input_data = pd.DataFrame([{
+            "age": age,
+            "bmi": bmi,
+            "children": children,
+            "sex": sex,
+            "smoker": smoker,
+            "region": region
+        }])
+
+        prediction = model.predict(input_data)[0]
+        st.success(f" Predicted Insurance Cost: ${prediction:.2f}")
+
     except Exception as e:
         st.error(f"Prediction Failed : {str(e)}")

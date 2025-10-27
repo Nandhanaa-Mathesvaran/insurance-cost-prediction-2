@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/437287163551089378/074327e1863f4b54b49c30e9b4b77863/artifacts
+end_time: 1761557061592
+entry_point_name: ''
+experiment_id: '437287163551089378'
+lifecycle_stage: active
+run_id: 074327e1863f4b54b49c30e9b4b77863
+run_name: GradientBoosting-HighR2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761557043933
+status: 3
+tags: []
+user_id: NANDHANAA M

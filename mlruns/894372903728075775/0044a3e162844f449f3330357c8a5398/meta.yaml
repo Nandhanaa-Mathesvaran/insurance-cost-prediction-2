@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/894372903728075775/0044a3e162844f449f3330357c8a5398/artifacts
+end_time: 1761557439060
+entry_point_name: ''
+experiment_id: '894372903728075775'
+lifecycle_stage: active
+run_id: 0044a3e162844f449f3330357c8a5398
+run_name: RandomForest-CV-Tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761557429939
+status: 3
+tags: []
+user_id: NANDHANAA M

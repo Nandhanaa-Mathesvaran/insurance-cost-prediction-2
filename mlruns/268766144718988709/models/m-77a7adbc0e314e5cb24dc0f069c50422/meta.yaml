@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/268766144718988709/models/m-77a7adbc0e314e5cb24dc0f069c50422/artifacts
+creation_timestamp: 1761556426866
+experiment_id: '268766144718988709'
+last_updated_timestamp: 1761556430211
+model_id: m-77a7adbc0e314e5cb24dc0f069c50422
+model_type: null
+name: XGBRegressor_best_model
+source_run_id: 4455bcdf21d24adb951859e3ad9cbfc7
+status: 2
+status_message: null

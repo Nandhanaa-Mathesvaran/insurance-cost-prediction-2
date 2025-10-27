@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/894372903728075775/c3d1b87bf566445d90f59dbc01011d16/artifacts
+end_time: 1761557429922
+entry_point_name: ''
+experiment_id: '894372903728075775'
+lifecycle_stage: active
+run_id: c3d1b87bf566445d90f59dbc01011d16
+run_name: GradientBoosting-CV-Tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761557417403
+status: 3
+tags: []
+user_id: NANDHANAA M

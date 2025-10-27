@@ -1,0 +1,15 @@
+creation_timestamp: 1761556350344
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1761556350344
+model_id: m-9bba7e7dcf084bae9386dbdbb4f3ac8d
+name: insurance-cost-predictor
+run_id: 9e2c890f4c534e0ca6238ef970e4af97
+run_link: null
+source: models:/m-9bba7e7dcf084bae9386dbdbb4f3ac8d
+status: READY
+status_message: null
+storage_location: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/268766144718988709/models/m-9bba7e7dcf084bae9386dbdbb4f3ac8d/artifacts
+user_id: null
+version: 6

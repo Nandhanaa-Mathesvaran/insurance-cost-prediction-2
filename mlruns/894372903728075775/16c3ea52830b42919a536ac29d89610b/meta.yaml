@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NANDHANAA%20M/OneDrive/Documents/insurance%202.0/mlruns/894372903728075775/16c3ea52830b42919a536ac29d89610b/artifacts
+end_time: 1761557443776
+entry_point_name: ''
+experiment_id: '894372903728075775'
+lifecycle_stage: active
+run_id: 16c3ea52830b42919a536ac29d89610b
+run_name: XGBRegressor-CV-Tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761557439066
+status: 3
+tags: []
+user_id: NANDHANAA M
