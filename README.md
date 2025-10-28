@@ -1,2 +1,2 @@
 # insurance-cost-prediction-2
-streamlit link: http://localhost:8508/
+streamlit link: http://localhost:8501/
