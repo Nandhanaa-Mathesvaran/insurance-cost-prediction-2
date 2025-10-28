@@ -5,28 +5,33 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_squared_error
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import GradientBoostingRegressor
 import mlflow
 import mlflow.sklearn
 
-
+# Load dataset
 df = pd.read_csv("insurance.csv")
 
+# Features and target
 X = df.drop("charges", axis=1)
 y = df["charges"]
 
+# Identify categorical columns
 cat_cols = X.select_dtypes(include=["object"]).columns
 
+# Preprocessing: OneHotEncoding for categorical columns
 preprocess = ColumnTransformer(
     transformers=[("cat", OneHotEncoder(drop="first"), cat_cols)],
     remainder="passthrough"
 )
 
+# Model pipeline: Gradient Boosting instead of Random Forest
 model = Pipeline([
     ("preprocess", preprocess),
-    ("regressor", RandomForestRegressor())
+    ("regressor", GradientBoostingRegressor(random_state=42))
 ])
 
+# Start MLflow experiment
 mlflow.set_experiment("Insurance-Model-Tracking")
 
 with mlflow.start_run():
